@@ -99,7 +99,7 @@ export class Room {
                 wallIndexLeft += this.map.totalBlocksX;
             }
             for (let j = 1; j <= this.innerSize + 1; j++) {
-                this.walls[3][j].changeType(2);
+                this.walls[3][j].changeType(3);
             }
 
             this.walls[3][0].changeType(3);
@@ -118,7 +118,7 @@ export class Room {
         }
 
         for (let j = 0; j <= this.innerSize + 1; j++) {
-            this.walls[1][j].changeType(2);
+            this.walls[1][j].changeType(3);
             this.walls[2][j].changeType(1);
         }
         let x = getRandomIntInclusive(1, this.innerSize);
@@ -178,7 +178,7 @@ export class Room {
         if (this.doors[3].length > 0) {
             this.doors[3].forEach(block => {
                 let index = this.map.blocks.indexOf(block);
-                for (let i = 1; i < this.map.roomSpaceY + 1; i++) {
+                for (let i = 1; i < this.map.roomSpaceX + 1; i++) {
                     this.map.blocks[index - i].changeType(0);
                     this.map.blocks[index - i + this.map.totalBlocksX].changeType(1);
                     this.map.blocks[index - i - this.map.totalBlocksX].changeType(1);

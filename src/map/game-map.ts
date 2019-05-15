@@ -191,13 +191,13 @@ export class GameMap {
         }
         for (let i = 0; i < this.roomAmountY * (this.roomsX - 1); i += this.roomsX) {
             for (let j = 1; j < this.roomSize + 1; j++) {
-                this.rooms[i].walls[3][j].changeType(2);
+                this.rooms[i].walls[3][j].changeType(3);
             }
             this.rooms[i].doors[3] = [];
         }
         for (let i = (this.roomsX - 1); i < this.roomsX * this.roomAmountY; i += this.roomsX) {
             for (let j = 1; j < this.roomSize + 1; j++) {
-                this.rooms[i].walls[1][j].changeType(1);
+                this.rooms[i].walls[1][j].changeType(3);
             }
             this.rooms[i].doors[1] = [];
         }
