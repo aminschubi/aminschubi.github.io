@@ -1,0 +1,19 @@
+{
+  "MONDAY": "Montag",
+  "TUESDAY": "Dienstag",
+  "WEDNESDAY": "Mittwoch",
+  "THURSDAY": "Donnerstag",
+  "FRIDAY": "Freitag",
+  "SATURDAY": "Samstag",
+  "SUNDAY": "Sonntag",
+  "ACTIVE": "Erschienen",
+  "PENDING": "Reserviert",
+  "CANCELLED": "Storniert",
+  "EXPIRED": "Nicht Erschienen",
+  "ORDERED": "Bestellt",
+  "CONFIRMED": "Bestätigt",
+  "PREPARATION": "Zubereitung",
+  "READY": "Abholbereit",
+  "FULFILLED": "Abgeholt",
+  "ABANDONED": "Nie Abgeholt"
+}

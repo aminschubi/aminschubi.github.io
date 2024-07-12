@@ -1,0 +1,245 @@
+{
+  "menu": [
+    {
+      "id": 1000,
+      "name": "Pizze",
+      "items": [
+        {
+          "id": 1,
+          "name": "Marinara",
+          "price": 7.5
+        },
+        {
+          "id": 2,
+          "name": "Margherita",
+          "price": 9
+        },
+        {
+          "id": 3,
+          "name": "Bufala",
+          "price": 12
+        },
+        {
+          "id": 4,
+          "name": "Spianata",
+          "price": 10.5
+        },
+        {
+          "id": 5,
+          "name": "Diavola",
+          "price": 11
+        },
+        {
+          "id": 6,
+          "name": "Salame di Manzo",
+          "price": 10.5
+        },
+        {
+          "id": 7,
+          "name": "Parma e Rucola",
+          "price": 14
+        },
+        {
+          "id": 8,
+          "name": "Rucola e Pomodorini",
+          "price": 11.5
+        },
+        {
+          "id": 9,
+          "name": "Prosciutto e Funghi",
+          "price": 11
+        },
+        {
+          "id": 10,
+          "name": "Napoli",
+          "price": 10
+        },
+        {
+          "id": 11,
+          "name": "Tonno e Cipolle",
+          "price": 11
+        },
+        {
+          "id": 12,
+          "name": "Ortolana",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 2000,
+      "name": "Pizze Bianche",
+      "items": [
+        {
+          "id": 13,
+          "name": "Mortadella",
+          "price": 13.5
+        },
+        {
+          "id": 14,
+          "name": "Salsiccia Friarelli",
+          "price": 14.5
+        },
+        {
+          "id": 15,
+          "name": "Patate e Cipolle",
+          "price": 10.5
+        }
+      ]
+    },
+    {
+      "id": 3000,
+      "name": "Pizze Dolche",
+      "price": 9,
+      "items": [
+        {
+          "id": 16,
+          "name": "Dolce Vita",
+          "price": 10.5,
+          "subMenuTitle": "Variante",
+          "subMenus": [10000, 10001]
+        }
+      ]
+    },
+    {
+      "id": 4000,
+      "name": "Antipasti",
+      "items": [
+        {
+          "id": 17,
+          "name": "Panuozzo (Pizzabrot)",
+          "price": 4.5
+        },
+        {
+          "id": 18,
+          "name": "Mozarella Caprese",
+          "price": 7.5,
+          "extras": [20000]
+        }
+      ]
+    },
+    {
+      "id": 5000,
+      "name": "Insalata",
+      "items": [
+        {
+          "id": 19,
+          "name": "Insalata di Pomodoro",
+          "price": 6.5,
+          "subMenuTitle": "Dressing",
+          "extras": [20001],
+          "subMenus": [10003, 10004]
+        },
+        {
+          "id": 20,
+          "name": "Insalata Mista",
+          "price": 8,
+          "subMenuTitle": "Dressing",
+          "subMenus": [10003, 10004]
+        },
+        {
+          "id": 21,
+          "name": "Insalata Tonno",
+          "price": 10,
+          "subMenuTitle": "Dressing",
+          "subMenus": [10003, 10004]
+        },
+        {
+          "id": 22,
+          "name": "Insalata Avocado",
+          "price": 10.5,
+          "subMenuTitle": "Dressing",
+          "subMenus": [10003, 10004]
+        },
+        {
+          "id": 23,
+          "name": "Insalata Rucola",
+          "price": 11,
+          "subMenuTitle": "Dressing",
+          "subMenus": [10003, 10004]
+        }
+      ]
+    },
+    {
+      "id": 6000,
+      "name": "Getränke",
+      "items": [
+        {
+          "id": 24,
+          "name": "Softdrinks",
+          "price": 3
+        },
+        {
+          "id": 25,
+          "name": "Wasser",
+          "price": 2.5
+        },
+        {
+          "id": 26,
+          "name": "Eistee 0.33L",
+          "price": 3
+        },
+        {
+          "id": 27,
+          "name": "Bier 0.33L",
+          "price": 3
+        },
+        {
+          "id": 28,
+          "name": "Bier 0.5L",
+          "price": 4
+        },
+        {
+          "id": 29,
+          "name": "Italienisches Bier 0.33L",
+          "price": 4
+        },
+        {
+          "id": 30,
+          "name": "Aperitif",
+          "price": 5
+        },
+        {
+          "id": 31,
+          "name": "Wein",
+          "price": 4.5
+        },
+        {
+          "id": 32,
+          "name": "Schorle",
+          "price": 3.5
+        }
+      ]
+    }
+  ],
+  "subMenus": [
+    {
+      "id": 10000,
+      "name": "mit Erdbeere"
+    },
+    {
+      "id": 10001,
+      "name": "mit Banane"
+    },
+    {
+      "id": 10003,
+      "name": "mit Hausdressing"
+    },
+    {
+      "id": 10004,
+      "name": "mit Essig + Öl"
+    }
+  ],
+  "extras": [
+    {
+      "id": 20000,
+      "name": "mit Mozzarella di Bufala Compana D.O.P",
+      "price": 4
+    },
+    {
+      "id": 20001,
+      "name": "mit Thunfisch",
+      "price": 2.5
+    }
+  ]
+}
